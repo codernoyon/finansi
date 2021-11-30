@@ -1,0 +1,266 @@
+/* google fonts cdn */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+p{
+    font-size: 16px;
+}
+
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------all color palet code */
+
+:root {
+    --navlinks-color: #3F5787;
+    --btn-color: #E98970;
+  }
+
+/* ------------Header------------- */
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background: linear-gradient(to top, #F2F4F7, #fff);
+
+
+}
+
+.logo{
+    font-size: 25px;
+    color: var(--navlinks-color);
+}
+
+.navbar{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.nav_links{
+    display: flex;
+}
+
+.nav_links li a{
+    display: inline-block;
+    margin: 0 10px;
+    color: var(--navlinks-color);
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 5px;
+
+}
+
+.nav_links li a::after{
+    content: "";
+    width: 0%;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background-color: var(--btn-color);
+    position: absolute;
+    opacity: 0;
+    transition: .3s;
+
+}
+
+.nav_links li a:hover::after{
+    opacity: 1;
+    width: 100%;
+
+}
+
+
+
+ .custom_btn{
+    background-color: var(--btn-color);
+    border: none;
+    padding: 15px 25px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.custom_btn:hover{
+    background: #2D487C;
+}
+
+
+/* --------------hero section start------------------ */
+
+#hero{
+    background: url(../img/home-page/hero-section.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 80px 0px;
+    position: relative
+}
+
+.inner_hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.child_hero{
+    flex-basis: 45%;
+}
+
+.child_hero p{
+    margin: 10px 0px;
+    line-height: 25px;
+}
+
+.child_hero h1{
+    font-size: 48px;
+    color: var(--navlinks-color);
+}
+
+
+
+/* features section */
+
+.features{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 75%;
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%);
+}
+
+
+.child_feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 25px;
+    background: #fff;
+    flex-basis: 32%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px lightgrey;
+
+}
+
+.feature_icon{
+    flex-basis: 40%;
+}
+
+.feature_icon i{
+    font-size: 30px;
+    color: var(--navlinks-color);
+
+}
+.features_text p{
+    font-size: 18px;
+}
+
+
+.features_text h3{
+    margin-bottom: 5px;
+}
+
+
+/* -----------------seciton title-------------------- */
+
+
+.section_title{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.section_title h1{
+    font-size: 35px;
+    position: relative;
+    padding-bottom: 20px;
+    color: var(--navlinks-color);
+}
+
+.section_title h1::after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    height: 3px;
+    background: var(--navlinks-color);
+}
+
+.section_title p{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+/*----------------service section-------------- */
+
+
+.inner_service{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service_item{
+    flex-basis: 31%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--navlinks-color);
+    border-top: 5px solid var(--navlinks-color);
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.service_item .service_icon{
+    flex-basis: 30%;
+    font-size: 30px;
+    color: var(--navlinks-color);
+}
+
+.service_text p{
+    margin: 20px 0px;
+    line-height: 25px;
+
+}
+
+.service_text a{
+    color: var(--navlinks-color);
+    font-weight: 600;
+}
