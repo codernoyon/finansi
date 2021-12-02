@@ -348,7 +348,7 @@ header{
     color: gray;
 }
 
-/* -----why choose us----- */
+/* ------------why choose us--------- */
 
 .why_choose_us{
     width: 80%;
@@ -424,7 +424,7 @@ header{
 
 .child_choose_us_right:hover{
     box-shadow: 1px 8px 12px lightgray;
-    transform: scale(1.03);
+    transform: scale(1.0);
 
 }
 
@@ -442,4 +442,74 @@ header{
 
 .child_choose_us_right h3{
     margin-bottom: 10px;
+}
+
+
+/* --------testimonial section--------- */
+
+#testimonial{
+    background: #E98970;
+}
+
+#testimonial .section_title h1, .section_title p{
+    color: #fff;
+}
+
+.inner_testi{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.child_testi{
+    flex-basis: 48%;
+    padding: 40px 30px;
+    background: #fff;
+    border-radius: 3px;
+    border-top: 5px solid var(--navlinks-color);
+    box-shadow:  3px 2px 11px #5d5b5ba3;
+    transition: .3s;
+}
+
+.child_testi:hover{
+    box-shadow:  3px 8px 11px #5d5b5ba3;
+    transform: scale(1.005);
+
+}
+
+.rating{
+    color: gold;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.child_testi p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    color: gray;
+}
+
+.user_info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.user_info .user_img{
+    font-size: 40px;
+    margin-right: 20px;
+    color: var(--navlinks-color);
+}
+.user_info .user_details h4 a{
+    color: var(--navlinks-color);
+}
+
+.user_info .user_details p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
 }
