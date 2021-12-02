@@ -37,6 +37,20 @@ body{
     --navlinks-color: #3F5787;
     --btn-color: #E98970;
   }
+/* ------scrollbar-------- */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #f0aa98 , #f8b6a6);
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dfdfdf;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
 
 /* ------------Header------------- */
 
@@ -100,13 +114,13 @@ header{
 
  .custom_btn{
     background-color: var(--btn-color);
-    border: none;
-    padding: 15px 25px;
+    padding: 12px 22px;
     font-size: 15px;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 3px;
     cursor: pointer;
     font-weight: 600;
+    border: none;
 }
 
 .custom_btn:hover{
@@ -452,7 +466,11 @@ header{
     background: #E98970;
 }
 
-#testimonial .section_title h1, .section_title p{
+#testimonial .section_title h1{
+    color: #fff;
+}
+
+#testimonial .section_title p{
     color: #fff;
 }
 
@@ -513,4 +531,155 @@ header{
     margin: 0;
     font-size: 16px;
     line-height: 25px;
+}
+
+/* brands logo section start */
+
+.brands_logo{
+    background: #F7F7F7;
+    padding: 70px 0px;
+}
+
+.inner_brands_logo{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.brands_child{
+    flex-basis: 24%;
+    display: flex;
+    align-items: center;
+    color: #7A7A7A;
+
+}
+
+.brands_child span{
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+
+/* --------talk us seciton start------------ */
+#talk_us{
+    background: #fff;
+}
+
+.inner_talk_us{
+    width: 80%;
+    margin: 0 auto;
+    background: #2D487C;
+    color: #ffff;
+    padding: 80px;
+}
+
+.inner_talk_us h1, .inner_talk_us p{
+    width: 45%;
+} 
+
+.inner_talk_us h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.inner_talk_us p{
+    margin: 20px 0px;
+    color: lightgray;
+}
+
+.inner_talk_us .custom_btn{
+    border: 1px solid #E98970;
+}
+
+.inner_talk_us .custom_btn:hover{
+    border: 1px solid #E98970;
+}
+
+
+
+/* foooter section */
+
+footer{
+    background: #F7F7F7;
+    padding: 100px 0px 0px 0px;
+}
+
+.inner_footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 40px;
+}
+
+.footer_first_child{
+    flex-basis: 30%;
+
+}
+
+.footer_first_child  p{
+    color: #818181;
+}
+
+.footer_first_child h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: var(--navlinks-color);
+}
+
+.child_footer{
+    flex-basis: 22%;
+}
+
+.child_footer h3{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.footer_links li a{
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #818181;
+}
+
+.footer_contact li{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.footer_contact li .footer_icon{
+    color: var(--navlinks-color);
+    margin-right: 8px;
+
+}
+
+.footer_contact li span{
+    color:#818181;
+}
+
+.child_footer .custom_btn{
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.copyright{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.copyright hr{
+    background: var(--navlinks-color);
+}
+
+.copyright p{
+    padding: 20px 0px;
+    color: #B2B2B2;
+}
+
+.copyright p a{
+    color: var(--navlinks-color);
 }
