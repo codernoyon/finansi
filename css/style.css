@@ -683,3 +683,24 @@ footer{
 .copyright p a{
     color: var(--navlinks-color);
 }
+
+/* -------service page--------- */
+
+#service_home{
+    background: var(--navlinks-color);
+    padding-top: 150px;
+}
+
+.inner_service_home{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.inner_service_home h1{
+    font-size: 45px;
+    color: #fff;
+}
+
+.service_choose_us_left{
+    flex-basis: 52%;
+}
