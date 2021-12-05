@@ -1,5 +1,5 @@
 /* google fonts cdn */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;70;800&display=swap');
 
 html{
     scroll-behavior: smooth;
@@ -686,21 +686,236 @@ footer{
 
 /* -------service page--------- */
 
-#service_home{
+#pages_home{
     background: var(--navlinks-color);
     padding-top: 150px;
 }
 
-.inner_service_home{
+.inner_pages_home{
     margin: 0 auto;
     width: 80%;
 }
 
-.inner_service_home h1{
+.inner_pages_home h1{
     font-size: 45px;
     color: #fff;
 }
 
 .service_choose_us_left{
     flex-basis: 52%;
+}
+
+
+
+/*--------------- about page css ---------------------*/
+
+section.why_choose_us{
+    padding: 100px 0px;
+}
+
+#finance_business{
+    background: #E98970;
+}
+
+.inner_finance_business{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.child_finance_business{
+    flex-basis: 45%;
+}
+
+.child_finance_business .finance_section_title{
+    text-align: left;
+    margin: 0;
+}
+
+.child_finance_business .finance_section_title h1{
+    color: #fff;
+}
+
+.child_finance_business .finance_section_title h1::after {
+    left: 0;
+    transform: translateX(0);
+    width: 10%;
+}
+
+.child_finance_business .finance_section_title p{
+    width: 100%;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.child_finance_business .finance_section_title .custom_btn{
+    background: var(--navlinks-color);
+    border: 1px solid var(--navlinks-color);
+    padding: 15px 30px;
+}
+
+.child_finance_business .finance_section_title .custom_btn:hover{
+    background: transparent;
+    border: 1px solid var(--navlinks-color);
+}
+
+
+/* ---------------- experience section -------------*/
+
+#experience{
+    background: #f9f9f9;
+}
+
+.inner_experience{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child_experience{
+    text-align: center;
+    flex-basis: 24%;
+}
+
+.child_experience h1{
+    color: #F9B124;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.child_experience p{
+    color: var(--navlinks-color);
+    font-size: 18px;
+}
+
+/* ---------skills secition -------------*/
+
+.inner_our_skills{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left_skills{
+    flex-basis: 60%;
+}
+
+.right_skills{
+    flex-basis: 35%;
+}
+
+.right_skills .section_title{
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.right_skills .section_title h1::after{
+    left: 0;
+    transform: translateX(0);
+    width: 15%;
+}
+
+.right_skills .section_title p{
+    width: 100%;
+}
+
+.single_skill{
+    margin-bottom: 25px;
+}
+
+.single_skill .bar{
+    background: #B2B2B2;
+    width: 100%;
+    display: block;
+}
+
+.tax, .business, .investment, .accounts{
+    height: 10px;
+    display: block;
+    background: var(--btn-color);
+}
+
+.tax{
+    width: 90%;
+}
+
+.business{
+    width: 80%;
+}
+
+.investment{
+    width: 70%;
+}
+
+.accounts{
+    width: 90%;
+}
+
+
+
+/* -------------pricing page css------------------- */
+
+
+.inner_price_table{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price_card{
+    flex-basis: 32%;
+    border: 1px solid #b2b2b2b0;
+    padding: 80px 25px 40px 25px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px lightgrey;
+    transition: .3s;
+}
+
+.price_card:hover{
+    background: #F7F7F7;
+    box-shadow: 0px 5px 8px lightgrey;
+    transform: scale(1.01);
+
+}
+
+.price_card h3{
+    margin-bottom: 30px;
+    color: var(--navlinks-color);
+}
+
+.price_card h1{
+    color: var(--btn-color);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.price_card ul{
+    padding: 20px 0px;
+}
+
+.price_card ul li{
+    margin-bottom: 20px;
+}
+
+.price_card ul li .icon i{
+    background: #F9B124;
+    color: #fff;
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
