@@ -148,7 +148,7 @@ header{
 }
 
 .child_hero{
-    flex-basis: 45%;
+    flex-basis: 48%;
 }
 
 .child_hero p{
@@ -251,7 +251,9 @@ header{
 
 
 /*----------------service section-------------- */
-
+#service{
+    background: #fff;
+}
 
 .inner_service{
     display: flex;
@@ -838,7 +840,7 @@ section.why_choose_us{
 }
 
 .single_skill .bar{
-    background: #B2B2B2;
+    background: #d1cecea4;
     width: 100%;
     display: block;
 }
@@ -922,4 +924,112 @@ section.why_choose_us{
     font-size: 14px;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+
+
+/* ------------contact page css---------------- */
+
+
+.inner_contact_details{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child_contact{
+    flex-basis: 31%;
+    text-align: center;
+    border: 1px solid var(--navlinks-color);
+    border-top: 5px solid var(--navlinks-color);
+    padding: 35px 15px;
+    box-shadow: 0px 2px 8px lightgrey;
+    transition: .3s;
+}
+
+.child_contact:hover{
+    box-shadow: 0px 8px 8px lightgrey;
+}
+
+.child_contact .icon i{
+    font-size: 25px;
+    background: var(--btn-color);
+    color: #ffff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+}
+.child_contact h3{
+    color: var(--navlinks-color);
+    margin: 15px;
+}
+
+.child_contact p{
+    color: #818181;
+}
+
+.inner_contact_form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.inner_contact_form form{
+    width: 100%;
+    padding: 60px;
+    border: 2px solid var(--btn-color);
+    box-shadow: 1px 0px 13px 1px lightgrey;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.inner_contact_form form:hover{
+    box-shadow: 1px 5px 13px 1px lightgrey;
+
+}
+
+.inner_contact_form .input_filds{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single_input{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.single_input label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.single_input input{
+    width: 100%;
+    padding: 12px;
+    display: block;
+    border: 1px solid lightgray;
+}
+
+.single_input:nth-child(5){
+    flex-basis: 100%;
+}
+
+.single_input:nth-child(5) textarea{
+    width: 100%;
+    resize: none;
+    border: 1px solid lightgray;
+}
+
+.single_input:last-child{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.single_input:last-child .custom_btn{
+    flex-basis: 30%;
 }
