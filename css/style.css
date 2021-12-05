@@ -646,6 +646,10 @@ footer{
     color: #818181;
 }
 
+.footer_links li a:hover{
+    text-decoration: underline;
+}
+
 .footer_contact li{
     display: flex;
     margin-bottom: 10px;
