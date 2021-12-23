@@ -1,0 +1,283 @@
+/* Home page */
+
+
+/* tablet screen */
+@media (min-width: 360px) and (max-width: 680px){
+
+    .menu{
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: var(--navlinks-color);
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .nav_links{
+        flex-direction: column;
+        background: #fdfdff;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: -400px;
+        display: block;
+        transition: 0s;
+
+    }
+
+    .nav_links.active{
+        top: 62px;
+    }
+
+    .nav_links li a{
+        padding: 15px 20px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav_links li:hover a{
+        background: var(--navlinks-color);
+        color: #fff;
+    }
+
+    .nav_links li a:hover::after{
+        opacity: 0;
+        width: 0%;
+    
+    }
+
+    .contact_btn{
+        display: none;
+    }
+
+    .navbar{
+        justify-content: flex-start;
+        display: block;
+        z-index: 100;
+        width: 85%;
+    }
+
+
+    /*---------- home section------ */
+
+    .child_hero{
+        flex-basis: 100%;
+    }
+
+    .child_hero h1{
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    #hero{
+        background-size: cover;
+    }
+
+    .inner_hero{
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        height: auto;
+        width: 85%;
+    }
+
+    .child_hero_img{
+        padding: 40px;
+    }
+
+    .features{
+        flex-wrap: wrap;
+        width: 85%;
+        position: static;
+        margin: 0 auto;
+        transform: translateX(0);
+        margin-top: 40px;
+    }
+
+    .child_feature{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* ---section title -----
+    
+    */
+
+    .section_title p{
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .section_title h1::after{
+        width: 30%;
+    }
+
+    /* ----service section----- */
+
+    .inner_service{
+        width: 85%;
+    }
+
+    .service_item{
+        flex-basis: 100%;
+    }
+
+    .service_item .service_icon{
+        margin-right: 10px;
+    }
+
+    /*------ aabout section----- */
+
+    .inner_about_us{
+        width: 85%;
+    }
+
+    .child_about_left, .child_about_right{
+        flex-basis: 100%;
+    }
+
+    .child_about_left{
+        margin-bottom: 40px;
+    }
+
+    /* -----why choose us section---- */
+
+    .why_choose_us{
+        width: 85%;
+        flex-wrap: wrap;
+    }
+
+    .choose_us_left{
+        flex-basis: 100%;
+    }
+
+    
+    .choose_us_right{
+        flex-basis: 100%;
+    }
+
+    .child_choose_us_right{
+        flex-basis: 100%;
+    }
+
+    .child_choose_us_right:last-child{
+        margin-bottom: 0;
+    }
+
+    
+    .why_choose_us .section_title p{
+        padding: 20px 0px;
+    }
+
+    .qualities{
+        margin-bottom: 40px;
+    }
+
+    /* ----testimonial section----- */
+
+    .inner_testi{
+        width: 85%;
+    }
+
+    .child_testi{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+        padding: 20px 30px;
+    }
+
+    .child_testi:last-child{
+        margin-bottom: 0;
+    }
+
+
+
+    .child_testi p{
+        font-size: 17px;
+    }
+
+
+    /*---- logo bands section-----  */
+    .inner_brands_logo{
+        width: 85%;
+    }
+
+    .brands_child{
+        flex-basis: 100%;
+        justify-content: space-evenly;
+    }
+
+    .brands_child span{
+        font-size: 50px;
+        margin-right: 0;
+    }
+
+    .brands_child h2{
+        font-size: 35px;
+    }
+
+
+    /* ---- talk us section---- */
+
+    #talk_us{
+        padding: 80px 0px;
+    }
+
+    .inner_talk_us{
+        width: 85%;
+        padding: 25px;
+    }
+
+    .inner_talk_us h1{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .inner_talk_us p{
+        width: 100%;
+    }
+
+
+    /* --- footer section--- */
+
+    .inner_footer{
+        width: 85%;
+    }
+
+    .child_footer, .footer_first_child{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .child_footer h3{
+        margin-bottom: 15px;
+    }
+
+    .child_footer:last-child{
+        margin-bottom: 0;
+    }
+
+    .copyright{
+        width: 85%;
+    }
+
+    .copyright p{
+        text-align: center;
+    }
+
+
+}
+
+/* laptop screen */
+/* @media (min-width: 1024px) {
+
+}
+
+/* desktop screen */
+/* @media (min-width: 1280px) {
+
+} */

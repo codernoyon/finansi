@@ -31,7 +31,11 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-/* ------all color palet code */
+.menu{
+    display: none;
+}
+
+/* ------all color palet code------- */
 
 :root {
     --navlinks-color: #3F5787;
@@ -142,6 +146,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
     height: 100vh;
@@ -575,6 +580,7 @@ header{
     background: #2D487C;
     color: #ffff;
     padding: 80px;
+    border-radius: 3px;
 }
 
 .inner_talk_us h1, .inner_talk_us p{
