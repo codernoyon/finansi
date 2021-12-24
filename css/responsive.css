@@ -36,7 +36,7 @@
     }
 
     .nav_links li a{
-        padding: 15px 20px;
+        padding: 15px 25px;
         width: 100%;
         margin: 0;
     }
@@ -154,6 +154,7 @@
 
     .choose_us_left{
         flex-basis: 100%;
+        margin-bottom: 30px;
     }
 
     
@@ -267,6 +268,93 @@
 
     .copyright p{
         text-align: center;
+    }
+
+    /* -----service page---- */
+
+    #about{
+        padding: 60px 0px;
+    }
+
+    .why_choose_us{
+        padding-top: 0px;
+
+    }
+
+    .service_choose_us_left {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* ----about us page---- */
+
+    #finance_business{
+        padding: 80px 0px;
+    }
+
+    .inner_finance_business{
+        width: 85%;
+    }
+
+    .child_finance_business{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    .child_finance_business .finance_section_title p{
+        padding: 20px 0px 0px 0px;
+    }
+
+    /* ---- experience section---- */
+
+    #experience{
+        padding: 70px 0px;
+    }
+
+    .child_experience{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .child_experience:last-child{
+        margin-bottom: 0;
+    }
+
+    /* --- skill section---- */
+    
+    #our_skills{
+        padding: 60px 0px;
+    }
+
+    .inner_our_skills{
+        width: 85%;
+    }
+
+    .left_skills{
+        margin-bottom: 40px;
+    }
+
+    .left_skills, .right_skills{
+        flex-basis: 100%;
+    }
+
+    .right_skills .section_title p{
+        padding: 20px 0px;
+    }
+
+
+    /* ---price section--- */
+    .inner_price_table{
+        width: 85%;
+    }
+
+    .price_card{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .price_card:last-child{
+        margin-bottom: 0;
     }
 
 
