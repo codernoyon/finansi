@@ -357,6 +357,32 @@
         margin-bottom: 0;
     }
 
+    /* -----contact page----- */
+
+    .child_contact{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .child_contact:last-child{
+        margin-bottom: 0px;
+    }
+
+    /* form  */
+
+    .inner_contact_form{
+        width: 90%;
+    }
+
+    .inner_contact_form form{
+        padding: 30px;
+    }
+
+
+    .single_input{
+        flex-basis: 100%;
+    }
+
 
 }
 
